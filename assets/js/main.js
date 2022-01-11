@@ -1,58 +1,58 @@
-jQuery(window).on('load', function() {
-       
-    
+jQuery(window).on('load', function () {
+
+
     // HIDE PRELAODER
     $(".preloader").addClass("preloader-hidden");
 
     // SHOW/ANIMATE ANIMATION CONTAINER
-    setTimeout(function(){
+    setTimeout(function () {
 
-        $(".hero .animation-container").each(function(){
+        $(".hero .animation-container").each(function () {
 
             var e = $(this);
 
-            setTimeout(function(){
+            setTimeout(function () {
 
                 e.addClass("run-animation");
 
-            }, e.data("animation-delay") );
+            }, e.data("animation-delay"));
 
         });
 
-    }, 900 );
-   
-    
+    }, 900);
+
+
 });
 
-jQuery(document).ready(function($) {
-	"use strict";
-    
-    
-    $(window).on('load', function() {
-        
+jQuery(document).ready(function ($) {
+    "use strict";
+
+
+    $(window).on('load', function () {
+
         // HIDE PRELAODER
         $(".preloader").addClass("preloader-hidden");
-        
+
         // SHOW/ANIMATE ANIMATION CONTAINER
-        setTimeout(function(){
-            
-            $(".hero .animation-container").each(function(){
+        setTimeout(function () {
+
+            $(".hero .animation-container").each(function () {
 
                 var e = $(this);
 
-                setTimeout(function(){
-                    
+                setTimeout(function () {
+
                     e.addClass("run-animation");
-                    
-                }, e.data("animation-delay") );
+
+                }, e.data("animation-delay"));
 
             });
-            
-        }, 900 );
-        
+
+        }, 900);
+
     });
-    
-    
+
+
     // INIT PARALLAX PLUGIN
     $(".hero .background-content.parallax-on").parallax({
         scalarX: 24,
@@ -60,8 +60,8 @@ jQuery(document).ready(function($) {
         frictionX: 0.1,
         frictionY: 0.1,
     });
-    
-    
+
+
     // PHONE IAMGE SLIDER
     $('.phone-slider').owlCarousel({
         center: true,
@@ -70,6 +70,6 @@ jQuery(document).ready(function($) {
         margin: 0,
         autoplay: true,
     });
-    
-    
+
+
 });

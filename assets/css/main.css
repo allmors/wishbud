@@ -727,3 +727,17 @@ a:hover
 {
     font-weight: 300;
 }
+
+.wx {
+    position: fixed;
+    z-index: 99;
+    left: 0;
+    top: 0;
+    background-color: rgba(0, 0, 0, 0.7);
+    width: 100vw;
+    height: 100vh;
+    background-image: url('../img/wx.png');
+    background-size: 100%;
+    background-position: center 100upx;
+    background-repeat: no-repeat;
+}
