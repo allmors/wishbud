@@ -1,5 +1,5 @@
 (function(){
-    let url = 'http://192.168.0.202:8008/api/yxAppVersion/app-url'
+    let url = 'http://106.52.45.55:8008/api/yxAppVersion/app-url'
     fetch(url).then(res => res.json()).then(data =>{
         console.log(data)
         $('#android').attr('href',data.androidUrl)
